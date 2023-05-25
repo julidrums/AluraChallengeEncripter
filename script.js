@@ -7,6 +7,8 @@ var resultado = document.querySelector(".texto-resultado");
 botonEncriptar.onclick = encriptar;
 botonDesencriptar.onclick = desencriptar;
 
+  
+
 function encriptar(){
     ocultarAdelante();
     var cajatexto =recuperarTexto()
